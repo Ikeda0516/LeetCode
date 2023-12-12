@@ -1,0 +1,35 @@
+×capacity ○self.capacity
+next 単体は nxt
+min と maxを強く意識
+dp の初期化を忘れない
+dp 単体になっていないか？
+文字列の要素を参照するとき、''をつける
+s[i:j] が条件文で単体となることはない
+石取り系dpの最初のfor文のrangeは、[1, n+1)
+LIS の返り値は、dp(max) + 1
+LCS の初期化は無し
+LCS の遷移は max
+耳dp のtの末尾に番兵追加
+耳dp のj に関するfor文のrangeは、[0, cols + 1)
+sliding window の区間最大値を求めるときのwhile文の条件文の一部は、i - k
+しゃくとり法では、while文の中にbreakを書かなければいけないときがある
+dic = defaultdict(list) の出力は、"dic.values()"
+if maxLevel < level: maxLevel = level の構文を間違えない
+配列にappendするのは、　○ node.val × node
+max(L)evel 大文字に！
+Count Good Nodes in Binary Tree の dfs は、dfs(root, root,val)
+traverse 系の関数で、if not node の確認を忘れない
+traverse して配列に append したあと、set() し直す。
+木の経路の大きさを更新するtraverse のnot node の返り値は 0
+tree　の構成は root を返すことが多い
+stack を参照する前に、stack に要素が存在しているか確認
+多変数を pop するとき、予め push した要素と対応しているか確認する
+存在確認の二分探索は、「0 < i < len(nums) and nums[i] == target」 とする。
+findMin の二分探索の return は nums[mid]
+特定の要素でソートするときは、 "key=lambda"
+Non-overlapping Intervals では、intervals[1:] で for 文をまわす。
+return left + [[start, end]] + right の２重カッコに注意
+heapq の最小要素は heapq[0]
+interval を merge するためには、事前に０番目の要素について sort する。
+valid prenthis 系の問題は、 not stack を return する。
+adj に頂点番号を append する前に、0-indexed にするべきか確認 
